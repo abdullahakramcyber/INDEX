@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <title>ABC NEWS WEBSITE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>NEWS TODAY</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sports.html">Sports</a></li>
+                <li><a href="technology.html">Technology</a></li>
+                <li><a href="politics.html">Politics</a></li>
+                <li><a href="connect.html">Connect</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="C:/Users/HP/Downloads/earth.jpg" class="card-img-top" alt="earth" height="300">
+                        <div class="card-body">
+                            <h5 class="card-title">Latest Headline: World Faces Climate Crisis</h5>
+                            <p class="climate-crisis-short-text">Today, global leaders are meeting to discuss urgent actions regarding the climate crisis<span class="climate-crisis-dots">...</span></p>  
+                            <p class="climate-crisis-more-text" style="display:none;">Today, global leaders are meeting to discuss urgent actions regarding the climate crisis. Climate change refers to long-term alterations in temperature, weather patterns, and environmental conditions across the Earth. Over the past century, human activities, particularly the burning of fossil fuels like coal, oil, and natural gas, have significantly increased the concentration of greenhouse gases in the atmosphere. These gases trap heat, causing the planet’s temperature to rise, a phenomenon known as global warming. As temperatures continue to climb, a series of cascading effects occur. Melting ice caps and glaciers contribute to rising sea levels, threatening coastal communities. Extreme weather events, such as hurricanes, droughts, and floods, have become more frequent and severe, causing widespread devastation and displacement.</p>
+                            <button onclick="toggleText('climate-crisis')" class="climate-crisis-read-more-btn">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="C:/Users/HP/Downloads/phones.jpg" class="card-img-top" alt="phones" height="300">
+                        <div class="card-body">
+                            <h5 class="card-title">New Technology Revolutionizing Smartphones</h5>
+                            <p class="smartphones-short-text">Smartphones today are equipped with advanced processors, large high-resolution displays<span class="smartphones-dots">...</span></p>  
+                            <p class="smartphones-more-text" style="display:none;">As environmental concerns grow, many smartphone manufacturers are focusing on sustainability. Companies are increasingly using eco-friendly materials like recycled plastics, biodegradable components, and sustainable packaging. Some manufacturers are also striving to reduce the carbon footprint of their production processes and improve the recyclability of their devices. This shift towards sustainability is important as consumers demand greener products that align with their environmental values. These technological advancements are changing the way we interact with smartphones, making them more powerful, intuitive, and versatile than ever before. As the industry continues to innovate, it's clear that smartphones will remain at the center of our digital lives, offering new possibilities and experiences for users around the world.</p>
+                            <button onclick="toggleText('smartphones')" class="smartphones-read-more-btn">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="C:/Users/HP/Downloads/NASA.jpg" class="card-img-top" alt="NASA" height="300">
+                        <div class="card-body">
+                            <h5 class="card-title">Discovery in Space</h5>
+                            <p class="NASA-short-text">Space exploration has led to profound discoveries<span class="NASA-dots">...</span></p>  
+                            <p class="NASA-more-text" style="display:none;">Space exploration has always fascinated humanity, pushing the boundaries of what we know about the cosmos. From the first moon landing in 1969 to the latest discoveries by space telescopes and robotic spacecraft, our understanding of the universe has evolved dramatically. Space discoveries have not only expanded our knowledge of the cosmos but have also raised new questions, inspiring scientists, astronauts, and dreamers to explore even further. Some of the most significant discoveries in space have provided profound insights into the origin of life, the nature of distant planets, and the ultimate fate of the universe. One of the most significant space discoveries came with the launch of the Hubble Space Telescope in 1990. This observatory, which orbits Earth, has provided some of the most stunning images of space, such as the iconic Pillars of Creation and the detailed portraits of galaxies far beyond our own, including exoplanets and the detection of gravitational waves</p>
+                            <button onclick="toggleText('NASA')" class="NASA-read-more-btn">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="C:/Users/HP/Downloads/STOCK.jpg" class="card-img-top" alt="STOCK" height="300">
+                        <div class="card-body">
+                            <h5 class="card-title">Downfall in Stock Exchange</h5>
+                            <p class="stock-short-text">A downfall in the stock exchange can have significant<span class="stock-dots">...</span></p>  
+                            <p class="stock-more-text" style="display:none;">A downfall in the stock exchange, often referred to as a market crash or bear market, is a significant decline in stock prices across the market, typically driven by a combination of economic, political, or financial factors. These downturns can be triggered by various causes such as economic recessions, inflationary pressures, changes in government policies, or external events like natural disasters or geopolitical instability. During a stock market decline, investors tend to panic, leading to widespread selling, which in turn further drives down stock prices. The downfall can severely impact businesses, as lower stock prices affect their ability to raise capital, and it can diminish consumer confidence, leading to reduced spending. Additionally, many individuals who have investments in stocks may experience significant financial losses. The psychological effects of a market crash can lead to fear and uncertainty, which in turn may prolong the downturn.</p>
+                            <button onclick="toggleText('stock')" class="stock-read-more-btn">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="C:/Users/HP/Downloads/CARS.jpg" class="card-img-top" alt="CARS" height="300">
+                        <div class="card-body">
+                            <h5 class="card-title">Revolution in Auto Industry</h5>
+                            <p class="EV-short-text">Electric vehicles are rapidly gaining popularity as a sustainable<span class="EV-dots">...</span></p>
+                            <p class="EV-more-text" style="display:none;">Electric vehicles (EVs) are rapidly gaining popularity as a sustainable alternative to traditional gasoline-powered cars. The revolution in the auto industry is reshaping the way vehicles are designed, manufactured, and used, driven by advancements in technology, changing consumer preferences, and environmental concerns. Electric vehicles (EVs) are at the forefront of this transformation, offering a cleaner and more sustainable alternative to traditional vehicles by producing zero emissions and benefiting from advancements in battery technology.</p>
+                            <button onclick="toggleText('EV')" class="EV-read-more-btn">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ABC News Website. All Rights Reserved.</p>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+        <a href="#">Facebook</a>
+        <a href="#">YouTube</a>
+    </footer>
+</body>
+</html>
